@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import{ LoginUser }from "./Components/login"
-import { RegistroUser } from "./Components/registro"
-
+import { useState } from "react";
+import { LoginUser } from "./Components/login";
+import { RegistroUser } from "./Components/registro";
 
 function App() {
-
-
-  return (<><RegistroUser/>
-             <LoginUser/> </>)
+  return (
+    <>
+      <RegistroUser />
+    </>
+  );
 }
 
-export default App
+export default App;

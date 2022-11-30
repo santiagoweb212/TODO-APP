@@ -1,0 +1,90 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+ /* global */
+  label {
+      display: block;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 0.8em;
+      color: rgba(0, 0, 0, 0.788);
+  }
+
+  input {
+      width: 15em;
+      height: 2.5em;
+      border-radius: 0.7em;
+      border-color: transparent;
+      font-family: 'Open Sans', sans-serif;
+      padding-left: 1em;
+      /* efecto */
+      background: #FEFEFF;
+      box-shadow: inset -3px -3px 6px rgba(236, 236, 236, 0.83), inset 3px 3px 6px rgba(0, 0, 0, 0.25);
+
+  }
+
+  input::placeholder {
+      font-size: 0.7em;
+  }
+  /* end global */
+.containerInicio {
+    box-sizing: border-box;
+    height: 100vh;
+    min-width: 100%;
+    background-color: blueviolet;
+    display: flex;
+
+}
+
+.containerImg {
+    box-sizing: border-box;
+    width: 60%;
+}
+
+.containerImg .imagenInicio {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.containerForm {
+    box-sizing: border-box;
+    background-color: #fcab10;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.boxForm {
+    background-color: greenyellow;
+    border-radius: 1em;
+    width: 20em;
+    height: 30em;
+/*----*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    justify-content: center;
+    align-content: center;
+    /* efecto */
+    background: rgba(223, 230, 233, 0.17);
+    box-shadow: -10px -10px 20px rgba(188, 188, 188, 0.19), 10px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 2em;
+
+}
+.button {
+    width: 9em;
+    height: 1.9em;
+    border-color: transparent;
+    background: #D6E0E4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1em;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1em;
+}

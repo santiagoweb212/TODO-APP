@@ -11,7 +11,7 @@ export const LoginUser = () => {
   };
   const handleOnSubmit = (e) => {
     e.preventDefault();
-    postLoginUser(valueInput)
+    //postLoginUser(valueInput)
   };
   return (
     <form action="" onSubmit={handleOnSubmit}>
